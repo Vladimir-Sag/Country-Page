@@ -33,7 +33,7 @@ export default function Home() {
           <RegionButtons setSortByRegion={setSortByRegion} />
           <CheckboxFilter setSortByStatus={setSortByStatus} />
         </aside>
-        <div className="lg:mt-1 h-full overflow-y-auto ">
+        <div className="lg:mt-1 h-full overflow-y-auto custom-scrollbar">
           <CountryList
             setTotalCountries={setTotalCountries}
             searchElement={searchElement}

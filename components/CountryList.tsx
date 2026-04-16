@@ -102,7 +102,7 @@ export default function CountryList({
   return (
     <div className="mt-9">
       <table className="w-full">
-        <thead className="sticky z-10 top-0 bg-brand-gray-900">
+        <thead>
           <tr className="text-xs text-left">
             <th className="min-w-22.5 lg:w-24.25 pb-4.5">Flag</th>
             <th className="min-w-37 lg:w-48.75 pb-4.5 ">Name</th>

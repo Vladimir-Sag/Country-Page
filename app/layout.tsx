@@ -26,9 +26,9 @@ export default function RootLayout({
     <html lang="en" className={`${beVietnamPro.className}  h-full antialiased`}>
       <body
         className="min-h-screen relative bg-brand-gray-900 text-brand-gray-200 
-      m-0 grid  items-start grid-rows-[auto_1fr]"
+      m-0 grid  items-start grid-rows-[auto_1fr] py-3"
       >
-        <header className="mt-11.5 mb-23 text-center lg:mt-26.5 h-fit">
+        <header className="mt-11.5 mb-20 text-center lg:mt-26.5 h-fit">
           <Image src={Logo} alt="Logo" priority className="inline-block" />
         </header>
         <div className="absolute top-0 left-0 w-full h-75 -z-10">
@@ -54,6 +54,7 @@ export default function RootLayout({
               sizes="100vw"
               quality={75}
               className="object-cover"
+              priority
             />
           </div>
         </div>

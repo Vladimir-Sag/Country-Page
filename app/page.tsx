@@ -33,7 +33,7 @@ export default function Home() {
           <RegionButtons setSortByRegion={setSortByRegion} />
           <CheckboxFilter setSortByStatus={setSortByStatus} />
         </aside>
-        <div className="lg:mt-1">
+        <div className="lg:mt-1 h-full overflow-y-auto ">
           <CountryList
             setTotalCountries={setTotalCountries}
             searchElement={searchElement}

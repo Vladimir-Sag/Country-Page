@@ -11,7 +11,7 @@ export default function TableResults({ result }: TableResultsProps) {
   const router = useRouter();
   return (
     <>
-      {result.slice(0, 25).map((country) => (
+      {result.map((country) => (
         <tr
           key={country.cca3}
           className="text-left border-b-24 border-transparent hover:bg-brand-gray-800/30 cursor-pointer "

@@ -95,7 +95,11 @@ export default async function CountryPage({
         <div className="flex gap-5 flex-wrap ">
           {neighbourCountries &&
             neighbourCountries.map((country) => (
-              <Link key={country.name.common} href={`/country/${country.cca3}`}>
+              <Link
+                key={country.name.common}
+                href={`/country/${country.cca3}`}
+                className="hover:opacity-80 transition-opacity"
+              >
                 <figure className="w-25 h-16 object-contain relative">
                   <Image
                     src={country.flags.svg}
